@@ -1,0 +1,6 @@
+channel: stable
+addons:
+  promtail:
+    repository: eroldan/addon-promtail
+    target: promtail
+    image: eroldan/test/{arch}
